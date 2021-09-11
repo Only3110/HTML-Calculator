@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	user-select: none;
+	box-sizing: border-box;
+}
+html,body{
+	height: 100%;
+}
+body{
+	display: grid;
+	place-items: center;
+	background: #131313;
+}
+.calculator{
+	width: 330px;
+	background: #242424;
+	padding: 40px 30px;
+	border-radius: 10px;
+	box-shadow: -3px -3px 7px #0303038f,
+							3px 3px 5px #00000080;
+}
+form .result{
+	height: 60px;
+	width: 100%;
+}
